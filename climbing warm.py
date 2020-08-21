@@ -1,0 +1,10 @@
+poles=list(map(int,input().split()))
+count=0
+i=0
+while(i<poles[2]):
+    i=i+poles[0]
+    count=count+1
+    if(i>=poles[2]):
+        print(count)
+        break
+    i=i-poles[1]
